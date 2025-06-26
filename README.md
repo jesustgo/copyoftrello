@@ -4,7 +4,7 @@ Proyecto de aprendizaje de una aplicación web recreando desde 0 trello, usando 
 
 ## Tecnologías
 - **Backend:** Django (Python)
-- **Froend**: Vite (Vanilla)
+- **Frotend**: Vite (Vanilla)
 - **DB**: Maria DB 
 
 ## Base de datos
