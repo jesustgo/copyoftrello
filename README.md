@@ -8,5 +8,6 @@ Proyecto de aprendizaje de una aplicación web recreando desde 0 trello, usando 
 - **DB**: Maria DB 
 
 ## Base de datos
-Diagrama de la Base de Datos que se va a usar en la primera version.
-![image](https://github.com/user-attachments/assets/26c64019-c413-487e-a703-b41e8bd9f248)
+Diagrama de la Base de Datos que se va a usar en la segunda version.
+
+![image](https://github.com/user-attachments/assets/cedf558f-a328-4120-bc70-b943f080b94d)
