@@ -9,4 +9,4 @@ Proyecto de aprendizaje de una aplicación web recreando desde 0 trello, usando 
 
 ## Base de datos
 Diagrama de la Base de Datos que se va a usar en la primera version.
-![image](https://github.com/user-attachments/assets/32151d34-0dc0-4bf1-841e-58355ca23a2e)
+![image](https://github.com/user-attachments/assets/26c64019-c413-487e-a703-b41e8bd9f248)
