@@ -37,7 +37,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 🧪 **Práctica semanal:**
 - Crear base de datos `tareas`, tabla `tarea(id, titulo, completada)`
 - Insertar y consultar 5 registros diferentes
-- Subir capturas o archivo `.sql` para revisión externa
+- Subir el archivo `.sql` para revisión externa
 
 ---
 
@@ -63,7 +63,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 🧪 **Práctica semanal:**
 - Crear diagrama ER con dbdiagram.io o drawSQL
 - Implementar ese modelo en MariaDB con datos reales
-- Grabar un video o hacer screenshots mostrando consultas exitosas
+- Documentar las consultas exitosas
 
 ✅ **Resultado:** Base de datos funcional y entendida desde el modelo hasta los datos
 
@@ -81,7 +81,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 🧪 **Práctica semanal:**
 - Crear CRUD de tareas desde consola
 - Subir código a GitHub
-- Grabar demostración (pantallazo o video corto)
+- Mostrar la documentacion de 
 
 ---
 
@@ -135,7 +135,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 
 🧪 **Práctica semanal:**
 - Crear colección de pruebas en Postman
-- Grabar uso real de API y compartir colección JSON
+- Subir uso real de API y compartir colección JSON
 
 ---
 
@@ -164,7 +164,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 
 🧪 **Práctica semanal:**
 - Maquetar página de tareas estilo Trello en HTML y CSS
-- Subir demo a GitHub Pages o grabar preview
+- Subir demo a GitHub Pages, Vercel o Netlify
 
 ---
 
