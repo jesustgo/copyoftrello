@@ -25,132 +25,202 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 
 ---
 
-## 📦 Estructura del Plan
-
-### 🔷 Bloque 1: Base de Datos y Modelado (Semana 1–3)
+### 🔷 Bloque 1: Introducción a Bases de Datos y Modelado (Semana 1–3)
 
 #### Semana 1 – Fundamentos de Bases de Datos
 
-- [ ] Introducción a bases de datos relacionales y SQL
-- [ ] Instalación y configuración de MariaDB
-- [ ] Crear tablas, insertar y consultar datos en SQL
+- [ ] ¿Qué es una base de datos? ¿Qué es SQL?
+- [ ] Instalar MariaDB o usar db online (ej. db-fiddle)
+- [ ] Crear una tabla simple, insertar y consultar datos
+- [ ] Practicar SELECT, INSERT, UPDATE, DELETE
 
-#### Semana 2 – Modelado tipo Trello
-
-- [ ] Diseñar el esquema con `User`, `Board`, `List`, `Card`
-- [ ] Practicar relaciones 1:N y N:N
-- [ ] Representar el modelo como diagrama ER
-
-#### Semana 3 – Integración con Django ORM
-
-- [ ] Instalar Django y conectar con MariaDB
-- [ ] Crear modelos Django reflejando el esquema
-- [ ] Migraciones y uso del Admin para crear datos
-
-✅ **Resultado:** Base de datos funcional integrada al backend
+🧪 **Práctica semanal:**
+- Crear base de datos `tareas`, tabla `tarea(id, titulo, completada)`
+- Insertar y consultar 5 registros diferentes
+- Subir capturas o archivo `.sql` para revisión externa
 
 ---
 
-### 🟨 Bloque 2: Python y Backend con Django (Semana 4–6)
+#### Semana 2 – Relaciones y Modelado Relacional
+
+- [ ] Relaciones 1:N y N:M con ejemplos prácticos
+- [ ] Claves primarias y foráneas
+- [ ] Ejercicios de relaciones: usuarios y tareas
+
+🧪 **Práctica semanal:**
+- Crear 3 tablas relacionadas: `usuarios`, `tableros`, `tareas`
+- Insertar datos y consultar tareas por usuario
+- Compartir script SQL y resultado de consultas
+
+---
+
+#### Semana 3 – Modelado tipo Trello
+
+- [ ] Diseñar el esquema: `User`, `Board`, `List`, `Card`
+- [ ] Representar modelo como Diagrama ER
+- [ ] Crear base de datos real con datos de prueba
+
+🧪 **Práctica semanal:**
+- Crear diagrama ER con dbdiagram.io o drawSQL
+- Implementar ese modelo en MariaDB con datos reales
+- Grabar un video o hacer screenshots mostrando consultas exitosas
+
+✅ **Resultado:** Base de datos funcional y entendida desde el modelo hasta los datos
+
+---
+
+### 🟨 Bloque 2: Fundamentos de Python y Primeros Pasos con Django (Semana 4–7)
 
 #### Semana 4 – Fundamentos de Python
 
-- [ ] Sintaxis básica, estructuras de control, funciones
-- [ ] Clases, listas, diccionarios, comprensión de listas
-- [ ] Módulos e instalación de dependencias
+- [ ] Tipos de datos, variables, funciones
+- [ ] Listas, diccionarios, bucles y condicionales
+- [ ] Clases y objetos (orientación a objetos básica)
+- [ ] Proyecto: CRUD de tareas con consola
 
-#### Semana 5 – Arquitectura de Django
+🧪 **Práctica semanal:**
+- Crear CRUD de tareas desde consola
+- Subir código a GitHub
+- Grabar demostración (pantallazo o video corto)
+
+---
+
+#### Semana 5 – Introducción a Django
 
 - [ ] ¿Qué es un framework? ¿Qué hace Django?
-- [ ] Crear proyecto y apps (`boards`)
-- [ ] Rutas, vistas y acceso a modelos desde vistas
+- [ ] Crear un proyecto Django y su primera app
+- [ ] Introducción a rutas y vistas simples
 
-#### Semana 6 – Creación de APIs
+🧪 **Práctica semanal:**
+- Crear una vista de bienvenida (`/hello`) que devuelva JSON
+- Publicar repositorio inicial en GitHub
+- Compartir link o mostrar funcionalidad en captura
 
-- [ ] Crear endpoints con `JsonResponse`
-- [ ] Crear recursos con POST desde la API
+---
+
+#### Semana 6 – Modelado en Django ORM
+
+- [ ] Crear modelos con ORM (User, Board, List, Card)
+- [ ] Migraciones, Admin Panel y prueba de inserción
+- [ ] Relacionar modelos entre sí
+
+🧪 **Práctica semanal:**
+- Usar Admin Panel para crear un tablero y tarjetas
+- Compartir video recorriendo el admin
+
+---
+
+#### Semana 7 – APIs básicas
+
+- [ ] Crear rutas con `JsonResponse`
+- [ ] Hacer GET y POST para Boards y Cards
 - [ ] Validaciones y gestión de errores
 
-✅ **Resultado:** API básica funcional para consumir y crear datos
+🧪 **Práctica semanal:**
+- Crear 2 endpoints funcionales (`/boards/`, `/cards/`)
+- Enviar datos con Postman y mostrar respuesta
+- Subir ejemplo en GitHub + documentación mínima (README)
+
+✅ **Resultado:** Proyecto Django con modelos conectados y endpoints funcionales
 
 ---
 
-### 🟦 Bloque 3: Comunicación Cliente-Servidor (Semana 7–8)
+### 🟦 Bloque 3: Comunicación Cliente-Servidor y REST (Semana 8–9)
 
-#### Semana 7 – Fundamentos Web y HTTP
+#### Semana 8 – HTTP, JSON y APIs REST
 
-- [ ] ¿Qué es HTTP? Métodos GET, POST, PUT, DELETE
-- [ ] Códigos de estado HTTP (200, 404, 500)
-- [ ] Introducción a JSON
+- [ ] ¿Qué es HTTP? Métodos y códigos de estado
+- [ ] Introducción a JSON y pruebas con Postman
+- [ ] Estructura REST: listar, crear, editar, borrar
 
-#### Semana 8 – Estructura REST
-
-- [ ] Crear rutas RESTful para boards, lists, cards
-- [ ] Retornar estructuras anidadas con datos
-- [ ] Probar la API con Postman o Insomnia
-
-✅ **Resultado:** API REST consumible lista para integrar con frontend
+🧪 **Práctica semanal:**
+- Crear colección de pruebas en Postman
+- Grabar uso real de API y compartir colección JSON
 
 ---
 
-### 🟩 Bloque 4: Frontend teórico y práctico (Semana 9–10)
+#### Semana 9 – API REST bien estructurada
 
-#### Semana 9 – HTML, CSS y DOM
+- [ ] Endpoints RESTful: `/boards`, `/lists`, `/cards`
+- [ ] Pruebas con Postman: estructuras anidadas
+- [ ] Reforzar conceptos de relaciones con API
 
-- [ ] Estructura de HTML
-- [ ] CSS básico: clases, flexbox, diseño responsive
-- [ ] Manipulación del DOM con JavaScript
+🧪 **Práctica semanal:**
+- Crear ejemplo de board con listas y tarjetas
+- Consultar todo el árbol desde endpoint `/boards/:id`
+- Publicar la estructura JSON obtenida + código usado
 
-#### Semana 10 – JavaScript moderno y Vite
-
-- [ ] Sintaxis básica, eventos, funciones, fetch
-- [ ] Crear proyecto Vite
-- [ ] Consumir la API Django y mostrar tableros, listas y tarjetas
-
-✅ **Resultado:** Interfaz web conectada al backend
+✅ **Resultado:** API REST sólida y probada
 
 ---
 
-### 🟧 Bloque 5: Cliente Interactivo (Semana 11–13)
+### 🟩 Bloque 4: Fundamentos Web y Frontend Básico (Semana 10–12)
 
-#### Semana 11 – Crear tarjetas desde la UI
+#### Semana 10 – HTML, CSS y JavaScript básico
 
-- [ ] Formulario para agregar tarjeta
-- [ ] Enviar POST y actualizar vista
-- [ ] Validación y feedback de errores
+- [ ] Estructura de una web con HTML5
+- [ ] CSS: clases, layout con flexbox, estilos responsivos
+- [ ] JS: manipulación DOM, eventos y fetch()
 
-#### Semana 12 – Drag & Drop
-
-- [ ] Implementar drag & drop de tarjetas
-- [ ] Enviar cambios al servidor
-- [ ] Actualizar `list_id` al mover tarjetas
-
-#### Semana 13 – Experiencia de Usuario
-
-- [ ] Añadir animaciones y transiciones
-- [ ] Estados de carga y mensajes visuales
-- [ ] Maquetado responsive final
-
-✅ **Resultado:** Aplicación web interactiva y atractiva visualmente
+🧪 **Práctica semanal:**
+- Maquetar página de tareas estilo Trello en HTML y CSS
+- Subir demo a GitHub Pages o grabar preview
 
 ---
 
-### 🟥 Bloque 6: Autenticación y Despliegue (Semana 14–16)
+#### Semana 11 – Proyecto Vite y consumo de API
 
-#### Semana 14 – Sistema de Usuarios
+- [ ] Crear proyecto con Vite
+- [ ] Hacer peticiones a la API desde el navegador
+- [ ] Mostrar tableros y listas en la interfaz
 
-- [ ] Implementar login/logout en Django
-- [ ] Asociar tableros a usuarios
-- [ ] Mostrar solo tableros del usuario logueado
+🧪 **Práctica semanal:**
+- Mostrar datos reales de la API en el navegador
+- Subir código y demo en repositorio
 
-#### Semana 15 – Preparación para producción
+---
 
-- [ ] Manejo de variables de entorno
-- [ ] Archivos estáticos en producción
-- [ ] Limpieza y organización de código
+#### Semana 12 – Interacción básica
 
-#### Semana 16 – Despliegue en la nube
+- [ ] Crear formulario para nuevas tarjetas
+- [ ] Enviar datos a API y actualizar vista
+- [ ] Mostrar errores y validaciones en pantalla
 
-- [ ] Subir código a GitHub
-- [ ] Desplegar con Railway, Render o VPS
-- [ ] Hacer build del frontend y servirlo
+🧪 **Práctica semanal:**
+- Crear demo funcional para agregar tarjeta
+- Compartir gif o video corto del flujo
+
+✅ **Resultado:** Frontend conectado y funcionando con la API
+
+---
+
+### 🟧 Bloque 5: Funcionalidades Interactivas y UX (Semana 13–15)
+
+#### Semana 13 – Drag & Drop
+
+- [ ] Implementar arrastrar y soltar tarjetas
+- [ ] Actualizar el `list_id` desde la UI
+- [ ] Enviar cambios a la API
+
+🧪 **Práctica semanal:**
+- Video mostrando movimiento de tarjeta y cambio reflejado en backend
+
+---
+
+#### Semana 14 – Experiencia de Usuario
+
+- [ ] Agregar animaciones suaves
+- [ ] Estados de carga, mensajes de éxito/error
+- [ ] Diseño adaptativo (mobile first)
+
+🧪 **Práctica semanal:**
+- Subir versión mejorada con UX
+- Recoger feedback de otra persona o compartir en comunidad (ej. Discord, Reddit)
+
+---
+
+#### Semana 15 – Refactorización
+
+- [ ] Limpiar código, separar componentes
+- [ ] Organización del frontend y backend
+- [ ] Pruebas manuales de todo el sistema
