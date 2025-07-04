@@ -29,9 +29,9 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 
 #### Semana 1 – Fundamentos de Bases de Datos
 
-- [ ] ¿Qué es una base de datos? ¿Qué es SQL?
-- [ ] Instalar MariaDB o usar db online (ej. db-fiddle)
-- [ ] Crear una tabla simple, insertar y consultar datos
+- [x] ¿Qué es una base de datos? ¿Qué es SQL?
+- [x] Instalar MariaDB o usar db online (ej. db-fiddle)
+- [x] Crear una tabla simple, insertar y consultar datos
 - [ ] Practicar SELECT, INSERT, UPDATE, DELETE
 
 🧪 **Práctica semanal:**
@@ -44,7 +44,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 #### Semana 2 – Relaciones y Modelado Relacional
 
 - [ ] Relaciones 1:N y N:M con ejemplos prácticos
-- [ ] Claves primarias y foráneas
+- [x] Claves primarias y foráneas
 - [ ] Ejercicios de relaciones: usuarios y tareas
 
 🧪 **Práctica semanal:**
@@ -56,8 +56,8 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 
 #### Semana 3 – Modelado tipo Trello
 
-- [ ] Diseñar el esquema: `User`, `Board`, `List`, `Card`
-- [ ] Representar modelo como Diagrama ER
+- [x] Diseñar el esquema: `User`, `Board`, `List`, `Card`
+- [x] Representar modelo como Diagrama ER
 - [ ] Crear base de datos real con datos de prueba
 
 🧪 **Práctica semanal:**
