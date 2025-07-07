@@ -32,7 +32,7 @@ Este proyecto es un aprendizaje progresivo para crear una aplicación estilo Tre
 - [x] ¿Qué es una base de datos? ¿Qué es SQL?
 - [x] Instalar MariaDB o usar db online (ej. db-fiddle)
 - [x] Crear una tabla simple, insertar y consultar datos
-- [ ] Practicar SELECT, INSERT, UPDATE, DELETE
+- [x] Practicar SELECT, INSERT, UPDATE, DELETE
 
 🧪 **Práctica semanal:**
 - Crear base de datos `tareas`, tabla `tarea(id, titulo, completada)`
